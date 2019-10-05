@@ -1,1 +1,49 @@
-/* CSS CODE HERE */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------------------------   Nav Bar     -------------------------------------*/
+
+#topnav{
+    list-style: none;
+    height: 200px;
+    width: 100vw;
+    text-transform: uppercase;
+    font-family: Roboto,sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    padding: 0px;
+    margin: 0px;
+    color: #333333;
+}
+
+#topnav li{
+    display: inline-block;
+}
+
+#topnav img{
+    position: relative;
+    top: 28px;
+    left: 28px;
+    /* 
+    padding: 28px 150px 0px 28px;
+    */
+    width: 350px;
+    height: 55px;
+    margin-right: 200px;
+    margin-top: 0px;
+}
+
+.topnavtext{
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    vertical-align: center;
+}
+
+#topnav li:nth-child(7){
+    background-color: #333333;
+    color: white;
+    padding: 10px 10px 10px 10px; 
+}
