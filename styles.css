@@ -3,11 +3,12 @@
     padding: 0;
 }
 
+
 /*-------------------------------   Nav Bar     -------------------------------------*/
 
 #topnav{
     list-style: none;
-    height: 200px;
+    height: 100px;
     width: 100vw;
     text-transform: uppercase;
     font-family: Roboto,sans-serif;
@@ -17,8 +18,10 @@
     margin: 0px;
     color: #333;
     position: fixed;
+    top: 0;
     text-decoration: none;
     margin-bottom: 1px; 
+    background-color: white; 
 }
 
 #topnav li{
@@ -29,13 +32,12 @@
     vertical-align: center;
 }
 
-#topnav img{
-    position: relative;
+#topnavimg{
+    position: fixed;
     top: 28px;
     left: 28px;
     width: 350px;
     height: 55px;
-    margin-bottom: 1px;
 }
 
 #topnav li:nth-child(1){
@@ -45,4 +47,35 @@
     vertical-align: center;
     margin-top: 35px;
 }
+
+
+/*------------------------------------------  Hero Section   ----------------------------------------------*/
+
+#herosection{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(Images/TLOUPII.jpg);
+    background-position: center;
+    background-size: cover; 
+    margin-top: 50px; 
+}
+
+#prevarrow{
+    float: left;
+    margin-top: 25%; 
+}
+
+#nextarrow{
+    float: right;
+    margin-top: 25%;
+    padding-right: 20px; 
+}
+
+#herotext{
+    color: white; 
+     
+}
+
+
+
 
