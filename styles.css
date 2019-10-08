@@ -20,8 +20,9 @@
     position: fixed;
     top: 0;
     text-decoration: none;
-    margin-bottom: 1px; 
+    margin-bottom: 110px; 
     background-color: white; 
+    z-index: 10;
 }
 
 #topnav li{
@@ -38,6 +39,7 @@
     left: 28px;
     width: 350px;
     height: 55px;
+    z-index: 10;
 }
 
 #topnav li:nth-child(1){
@@ -58,7 +60,7 @@
     background-position: center;
     background-size: cover; 
     margin-top: 110px; 
-    display: block;
+    
 }
 
 #prevarrow{
@@ -78,30 +80,50 @@
     text-emphasis: bold;
     background: rgba(0, 0, 0, 0.6); 
     position: relative;
-    top: 83.1vh;
-    display: block;
-    line-height: 1.2;
+    top: 84%;
+    width: 100vw;
 }
 
 #herotext h1{
-    font-size: 2rem;
+    font-size: 3rem;
     letter-spacing: 0.5px;
     padding-right: 15px;
     padding-left: 100px;
-    padding-top: 1rem; 
+    padding-top: 1.5rem; 
     margin-bottom: 1rem;   
 }
 
 #herotext h3{
-    font-size: 1.375rem;
+    font-size: 2rem;
     padding-right: 15px;
     padding-left: 100px;
-    padding-bottom: 1rem;    
+    padding-bottom: 1.5rem;    
 }
 
-/*---------------------------------------- Read More Section -------------------------------------*/
+/*---------------------------------------- Latest News Section -------------------------------------*/
 
+#latestnews{
+    height: 100vh;
+    width: 100vw;
+    font-family: "Barlow Condensed",sans-serif;
+    color: #333;
+}
 
+#lnheading{
+    margin-top: 150px; 
+    margin-left: 150px;
+    margin-right: 150px; 
+    margin-bottom: 25px; 
+    border-bottom: 1px solid black;
+}
+
+#TLOUR{
+    height: 500px;
+    width: 450px;
+    float: left;
+    margin-left: 150px; 
+    
+}
 
 
 
