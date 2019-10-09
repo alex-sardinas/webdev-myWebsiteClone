@@ -13,6 +13,11 @@ body{
     background-repeat: no-repeat; 
 }
 
+h1,h2,h3,h4,h5,h6{
+    font-family: "Barlow Condensed",sans-serif;
+    color: #333;
+}
+
 /*-------------------------------   Nav Bar     -------------------------------------*/
 
 #topnav{
@@ -120,14 +125,17 @@ body{
 #latestnews{
     height: 100vh;
     width: 100vw;
-    font-family: "Barlow Condensed",sans-serif;
-    color: #333;
     display: block;
 }
+    
+#latestnewsblock{
+    height: 100vh;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
 
 #lnheading{ 
-    margin-left: 125px;
-    margin-right: 125px; 
     margin-bottom: 25px;
     padding-bottom: 10px;  
     border-bottom: 1px solid black;
@@ -135,30 +143,61 @@ body{
 
 #TLOUR{
     float: left;
-    height: 550px;
-    width: 725px;
-    margin-left: 125px;
+    height: 76.5%;
+    width: 69%;
     background-image: url(images/TLOU\ Remastered.jpg);
+}
+
+#TLOURtext{
+    float: left;
+    width: 69%;
+    height: 20%;
+    background-color: rgba(	220, 220, 220, 0.3);
+    margin-bottom: 1%;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+#TLOURtext h4,h6,p{
+    padding-left: 3%;
+    padding-top: 2%;     
+}
+
+#TLOURtext p{
+    margin-top: 0px;
+    font-size: 1rem;
+    font-family: Roboto,sans-serif;
+}
+
+#TLOURtext h6{
+    margin-top: 1%;
+    font-size: 1rem;
+    font-family: Roboto,sans-serif;
+    color: red;
 }
 
 #outbreak{
     background-image: url(images/TLOU\ Outbreak\ Day.jpg);
-    height: 200px;
-    width: 355px;
+    height: 27.5%;
+    width: 28%;
     float: left;
-    margin-right: 125px;
-    margin-left: 30px;
+    margin-left: 3%;
 }
 
 #outbreaktext{
     float: left;
-    height: 100px;
-    width: 345px;
-    margin-top: 10px;
-    margin-left: 45px;
-    margin-right: 110px;
+    height: 20%;
+    width: 28%; 
+    background-color: rgba(	220, 220, 220, 0.3);
+    margin-left: 3%;
+    margin-bottom: 1%;
     font-size: 1.1rem;
     text-align: left;
+}
+
+#outbreaktext h4,h6,p{
+    padding-left: 3%;
+    padding-top: 2%;     
 }
 
 #outbreaktext p{
@@ -168,7 +207,7 @@ body{
 }
 
 #outbreaktext h6{
-    margin-top: 15px;
+    margin-top: 5%;
     font-size: 1rem;
     font-family: Roboto,sans-serif;
     color: red;
@@ -176,23 +215,26 @@ body{
 
 #TLOU2{
     background-image: url(images/TLOUPII-2.jpg);
-    height: 200px;
-    width: 355px;
+    height: 27.5%;
+    width: 28%;
     float: left;
-    margin-right: 125px;
-    margin-left: 30px;
-    margin-top: 30px; 
+    margin-left: 3%;
 }
 
 #TLOU2text{
     float: left;
-    height: 100px;
-    width: 345px;
-    margin-top: 10px;
-    margin-left: 45px;
-    margin-right: 110px;
+    height: 20%;
+    width: 28%; 
+    background-color: rgba(	220, 220, 220, 0.3);
+    margin-left: 3%;
+    margin-bottom: 1%;
     font-size: 1.1rem;
     text-align: left;
+}
+
+#TLOU2text h4,h6,p{
+    padding-left: 3%;
+    padding-top: 2%;     
 }
 
 #TLOU2text p{
@@ -202,7 +244,7 @@ body{
 }
 
 #TLOU2text h6{
-    margin-top: 15px;
+    margin-top: 5%;
     font-size: 1rem;
     font-family: Roboto,sans-serif;
     color: red;
