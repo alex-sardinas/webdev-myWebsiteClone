@@ -263,13 +263,6 @@ h1,h2,h3,h4,h5,h6{
     z-index: -2;
 }
 
-/*#videosectionbg-textsection{
-    width: 100vw;
-    height: 100vh;
-    margin-right: 125px;
-    margin-left: 125px;
-}*/
-
 #videosectionbg-text {
     background: url(https://s3.amazonaws.com/nd.images/global/paw_bg.png) bottom right no-repeat #000;
     background-size: contain;
