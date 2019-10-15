@@ -245,7 +245,10 @@ h1,h2,h3,h4,h5,h6{
     height: 15%;
     border: 3px solid red;
     background-color: red;
-    padding: 1rem 0.625rem;
+    padding-top: 1.3rem;
+    padding-bottom: 2rem; 
+    padding-left: 1rem; 
+    padding-right: 1rem;
 }
 
 /*-------------------------------------- Videos ----------------------------------------*/
@@ -315,7 +318,7 @@ input[type=text]{
     width: 19.94%;
     height: 25%;
     float: left;
-    margin-top: 13%;
+    margin-top: 14.5%;
     margin-left: 0.3%;
     filter: grayscale(1.0);
 }
@@ -324,7 +327,7 @@ input[type=text]{
     width: 19%;
     height: 25%;
     float: left;
-    margin-top: 13%;
+    margin-top: 14.5%;
     margin-left: 0%;
 }
 
@@ -417,4 +420,16 @@ input[type=text]{
     background-color: red;
     position: absolute;
     top: 510vh;
+}
+
+#footerbottom{
+    height: 200px;
+    width: 100vw;
+    background-color: #333;
+    position: absolute;
+    top: 520vh;
+}
+
+#footerbottom h1,h2,h3,h4,h5,h6{
+    color: white;
 }
