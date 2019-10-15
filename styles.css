@@ -182,7 +182,7 @@ h1,h2,h3,h4,h5,h6{
     float: left;
     height: 76.5%;
     width: 65.7%;
-    background-image: url(images/TLOU\ Remastered.jpg);
+    background-image: url(Images/TLOU\ Remastered.jpg);
 }
 
 #TLOURtext{
@@ -205,15 +205,15 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #outbreak{
-    background-image: url(images/TLOU\ Outbreak\ Day.jpg);
+    background-image: url(Images/TLOU\ Outbreak\ Day.jpg);
 }
 
 #TLOU2{
-    background-image: url(images/TLOUPII-2.jpg);
+    background-image: url(Images/TLOUPII-2.jpg);
 }
 
 #classics{
-    background-image: url(images/TLOU_Uncharted.jpg);
+    background-image: url(Images/TLOU_Uncharted.jpg);
     height: 27.5%;
     width: 31.3%;
     float: left;
@@ -224,11 +224,11 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #merch{
-    background-image: url(images/Merch.jpg);
+    background-image: url(Images/Merch.jpg);
 }
 
 #GDC{
-    background-image: url(images/GDC\ Banner.jpg);
+    background-image: url(Images/GDC\ Banner.jpg);
 }
 
 #seemorenews{
@@ -256,7 +256,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .videosectionbg{
-    background-image: url(images/TLOU\ Gameplay\ Trailer.jpg);
+    background-image: url(Images/TLOU\ Gameplay\ Trailer.jpg);
     filter: grayscale(0.8) blur(20px);
     height: 120%;
     width: 100vw;
@@ -390,7 +390,7 @@ input[type=text]{
 }
 
 #ellieshooting{
-    background-image: url(images/TheLastofUsPartII_E32018_06_d4e4e04a52bfbdbeab5ba4d2cf1d1390.jpg);
+    background-image: url(Images/TheLastofUsPartII_E32018_06_d4e4e04a52bfbdbeab5ba4d2cf1d1390.jpg);
     height: 29.5%;
     width: 31.3%;
     float: left;
@@ -401,11 +401,11 @@ input[type=text]{
 }
 
 #lostlegacyartifact{
-    background-image: url(images/UTLL-Launch-Screenshot_01_d4e4e04a52bfbdbeab5ba4d2cf1d1390.png);
+    background-image: url(Images/UTLL-Launch-Screenshot_01_d4e4e04a52bfbdbeab5ba4d2cf1d1390.png);
 }
 
 #ellieandjoelinwoods{
-    background-image: url(images/Ellie\ and\ Joel.jpg);
+    background-image: url(Images/Ellie\ and\ Joel.jpg);
 }
 
 /*------------------------------------- Footer ---------------------------*/
