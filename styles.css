@@ -327,3 +327,94 @@ input[type=text]{
     margin-top: 13%;
     margin-left: 0%;
 }
+
+/*------------------------------------ In the Press ------------------------------------------*/
+
+#inthepress{
+    height: 40vh;
+    width: 100vw;
+    position: absolute;
+    top: 440vh;
+}
+
+.h4textitp{
+    padding-left: 3%;
+    padding-top: 2%;
+    font-size: 1.5rem;
+}
+
+.ptextitp{
+    font-size: 1rem;
+    font-family: "Roboto",sans-serif;
+    line-height: 1.5em;
+    font-size: 14px;
+}
+
+.textboxesitp{
+    float: left;
+    height: 20%;
+    width: 31.3%;
+    background-color: rgba(	220, 220, 220, 0.3);
+    margin-left: 3%;
+    margin-bottom: 1%;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.notleftbgitp{
+    height: 29.5%;
+    width: 31.3%;
+    float: left;
+    margin-left: 3%;
+}
+
+.textboxinitp{
+    color: white;
+    background-color: black;
+    width: auto;
+    margin-top: 35%;
+    margin-right: 60%;
+    padding: 1rem 0.925rem;
+}
+
+#inthepressblock{
+    height: 100vh;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+#itpheading{
+    margin-bottom: 25px;
+    padding-bottom: 10px;  
+    border-bottom: 1px solid black;
+}
+
+#ellieshooting{
+    background-image: url(images/TheLastofUsPartII_E32018_06_d4e4e04a52bfbdbeab5ba4d2cf1d1390.jpg);
+    height: 29.5%;
+    width: 31.3%;
+    float: left;
+}
+
+#ellieshootingtext{
+    margin-left: 0;
+}
+
+#lostlegacyartifact{
+    background-image: url(images/UTLL-Launch-Screenshot_01_d4e4e04a52bfbdbeab5ba4d2cf1d1390.png);
+}
+
+#ellieandjoelinwoods{
+    background-image: url(images/Ellie\ and\ Joel.jpg);
+}
+
+/*------------------------------------- Footer ---------------------------*/
+
+#footertop{
+    max-height: 125px;
+    height: 125px;
+    width: 100vw;
+    background-color: red;
+    position: absolute;
+    top: 510vh;
+}
