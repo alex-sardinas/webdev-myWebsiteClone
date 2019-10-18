@@ -7,6 +7,7 @@
 
 body{
     color: #333;
+    display: block;
 }
 
 .background{
@@ -318,7 +319,7 @@ input[type=text]{
     width: 19.94%;
     height: 25%;
     float: left;
-    margin-top: 14.5%;
+    margin-top: 13%;
     margin-left: 0.3%;
     filter: grayscale(1.0);
 }
@@ -327,7 +328,7 @@ input[type=text]{
     width: 19%;
     height: 25%;
     float: left;
-    margin-top: 14.5%;
+    margin-top: 13%;
     margin-left: 0%;
 }
 
@@ -372,12 +373,13 @@ input[type=text]{
 }
 
 .textboxinitp{
+    display: block;
     color: white;
     background-color: black;
     width: auto;
     margin-top: 35%;
     margin-right: 60%;
-    padding: 1rem 0.925rem;
+    padding: 10px 20px 10px;
 }
 
 #inthepressblock{
@@ -414,12 +416,34 @@ input[type=text]{
 /*------------------------------------- Footer ---------------------------*/
 
 #footertop{
-    max-height: 125px;
-    height: 125px;
+    height: 155px;
+    min-height: 155px;
     width: 100vw;
     background-color: red;
     position: absolute;
     top: 510vh;
+}
+
+i{
+    color: white;
+    font-size: 3.125rem;
+}
+
+#socials{
+    margin-left: 33%;
+    margin-left: 33%;
+    position: absolute;
+    top: 15%;
+}
+
+#socials li{
+    display: inline;
+    padding: 1rem;
+}
+
+a:hover i{
+    opacity: .5;
+    text-decoration: none;
 }
 
 #footerbottom{
@@ -427,9 +451,41 @@ input[type=text]{
     width: 100vw;
     background-color: #333;
     position: absolute;
-    top: 520vh;
+    top: 525vh;
+    color: white;
 }
 
-#footerbottom h1,h2,h3,h4,h5,h6{
+#footerbottomtextblock{
+    position: absolute;
+    top: 15px;
+    width: 50%;
+    margin-right: 0;
+    float: left;
+}
+
+.footerbottomtext{
     color: white;
+    margin-left: 125px;
+    margin-right: 0;
+    padding-left: 0;
+    padding-top: 1.6%;
+    line-height: 1.2;
+
+}
+
+p.footerbottomtext{
+    font-size: normal;
+}
+
+#ESRBlogo{
+    position: absolute;
+    top: 40px;
+    right: 300px;
+}
+
+#ratinglogo{
+    position: absolute;
+    top: 40px;
+    right: 125px;
+    height: 100px;
 }
