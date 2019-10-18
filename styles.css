@@ -426,19 +426,19 @@ input[type=text]{
 
 i{
     color: white;
-    font-size: 3.125rem;
+    font-size: 3.8rem;
 }
 
 #socials{
-    margin-left: 33%;
+    margin-left: 42%;
     margin-left: 33%;
     position: absolute;
-    top: 15%;
+    top: 25%;
 }
 
 #socials li{
     display: inline;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 a:hover i{
