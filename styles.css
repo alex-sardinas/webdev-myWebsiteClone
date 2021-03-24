@@ -55,7 +55,7 @@ h1,h2,h3,h4,h5,h6{
     position: fixed;
     top: 28px;
     left: 28px;
-    width: 350px;
+    width: 50px;
     height: 55px;
     z-index: 1080;
 }
@@ -68,13 +68,22 @@ h1,h2,h3,h4,h5,h6{
     margin-top: 35px;
 }
 
+#fixing{
+    color: cadetblue;
+    position: fixed;
+    margin: 0;
+    top: -5px;
+    left: 80px;
+    font-size: 30px;
+}
+
 
 /*------------------------------------------  Hero Section   ----------------------------------------------*/
 
 #herosection{
     height: 100vh;
     width: 100vw;
-    background-image: url(Images/TLOUPII.jpg);
+    background-image: url(https://i.redd.it/xf8hyiiteeuz.jpg);
     background-position: center;
     background-size: cover;
     margin-top: 110px;
@@ -146,7 +155,7 @@ h1,h2,h3,h4,h5,h6{
     margin-top: 5%;
     font-size: 1rem;
     font-family: "Roboto",sans-serif;
-    color: red;
+    color: cadetblue;
 }
 
 .notleftbg{
@@ -183,7 +192,7 @@ h1,h2,h3,h4,h5,h6{
     float: left;
     height: 76.5%;
     width: 65.7%;
-    background-image: url(Images/TLOU\ Remastered.jpg);
+    background-image: url(http://static1.squarespace.com/static/531a50e7e4b02c4ce25dc099/55afe467e4b04b27bc851dd5/55afe56ee4b054e1dd7c1e3a/1442870235720/?format=1500w);
 }
 
 #TLOURtext{
@@ -202,19 +211,19 @@ h1,h2,h3,h4,h5,h6{
     margin-top: 1%;
     font-size: 1rem;
     font-family: "Roboto",sans-serif;
-    color: red;
+    color: cadetblue;
 }
 
 #outbreak{
-    background-image: url(Images/TLOU\ Outbreak\ Day.jpg);
+    background-image: url(https://media.istockphoto.com/photos/sea-shells-on-a-beach-sand-picture-id530204634);
 }
 
 #TLOU2{
-    background-image: url(Images/TLOUPII-2.jpg);
+    background-image: url(https://i.pinimg.com/originals/39/4f/dc/394fdccadb35cbe9fafa4f8fdc96579e.jpg);
 }
 
 #classics{
-    background-image: url(Images/TLOU_Uncharted.jpg);
+    background-image: url(https://cdn.bigdropinc.com/uploads/2019/12/nesa-by-makers-IgUR1iX0mqM-unsplash.jpg);
     height: 27.5%;
     width: 31.3%;
     float: left;
@@ -225,11 +234,11 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #merch{
-    background-image: url(Images/Merch.jpg);
+    background-image: url(https://images.pexels.com/photos/4291/door-green-closed-lock.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500);
 }
 
 #GDC{
-    background-image: url(Images/GDC\ Banner.jpg);
+    background-image: url(https://i.pinimg.com/originals/49/45/b7/4945b78ccdb7651b05b7865795316beb.png);
 }
 
 #seemorenews{
@@ -244,8 +253,8 @@ h1,h2,h3,h4,h5,h6{
 #seemorenews h5{
     color: white;
     height: 15%;
-    border: 3px solid red;
-    background-color: red;
+    border: 3px solid cadetblue;
+    background-color: cadetblue;
     padding-top: 1.3rem;
     padding-bottom: 2rem; 
     padding-left: 1rem; 
@@ -260,7 +269,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .videosectionbg{
-    background-image: url(Images/TLOU\ Gameplay\ Trailer.jpg);
+    background-image: url(https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
     filter: grayscale(0.8) blur(20px);
     height: 120%;
     width: 100vw;
@@ -268,8 +277,9 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #videosectionbg-text {
-    background: url(https://s3.amazonaws.com/nd.images/global/paw_bg.png) bottom right no-repeat #000;
+    background: url(https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/weather/cloud/cumulus-cloud.jpg) no-repeat #000;
     background-size: contain;
+    object-fit: cover;
     color: white;
     font-weight: bold;
     position: absolute;
@@ -277,8 +287,8 @@ h1,h2,h3,h4,h5,h6{
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 80%;
-    height: 75%;
+    width: 79%;
+    height: 67.5%;
     text-align: center;
 }
 
@@ -302,12 +312,12 @@ input[type=text]{
 }
 
 #videosectionbg-confirm{
-    border: 1px solid red;
+    border: 1px solid cadetblue;
     padding: 1rem 0.625rem;
     margin-top: 3%;
     margin-right: 42%;
     margin-left: 42%;
-    background-color: red;
+    background-color: cadetblue;
 }
 
 #videosectionbg-confirm h5{
@@ -321,15 +331,15 @@ input[type=text]{
     float: left;
     margin-top: 13%;
     margin-left: 0.3%;
-    filter: grayscale(1.0);
+    /* filter: grayscale(1.0); */
 }
 
 #videoimgfirst-child{
-    width: 19%;
+    width: 19.5%;
     height: 25%;
     float: left;
     margin-top: 13%;
-    margin-left: 0%;
+    margin-left: 0.3%;
 }
 
 /*------------------------------------ In the Press ------------------------------------------*/
@@ -395,7 +405,7 @@ input[type=text]{
 }
 
 #ellieshooting{
-    background-image: url(Images/TheLastofUsPartII_E32018_06_d4e4e04a52bfbdbeab5ba4d2cf1d1390.jpg);
+    background-image: url(Images/D66A3F4A-1C0A-42E9-A5E1-930C8F6E0B3A_1_105_c.jpeg);
     height: 29.5%;
     width: 31.3%;
     float: left;
@@ -406,11 +416,11 @@ input[type=text]{
 }
 
 #lostlegacyartifact{
-    background-image: url(Images/UTLL-Launch-Screenshot_01_d4e4e04a52bfbdbeab5ba4d2cf1d1390.png);
+    background-image: url(Images/IMG_3253.jpg);
 }
 
 #ellieandjoelinwoods{
-    background-image: url(Images/Ellie\ and\ Joel.jpg);
+    background-image: url(Images/584B8700-BB56-43F2-AB0B-26D1F1EB5DC0.jpeg);
 }
 
 /*------------------------------------- Footer ---------------------------*/
@@ -419,7 +429,7 @@ input[type=text]{
     height: 155px;
     min-height: 155px;
     width: 100vw;
-    background-color: red;
+    background-color: cadetblue;
     position: absolute;
     top: 510vh;
 }
@@ -488,4 +498,16 @@ p.footerbottomtext{
     top: 40px;
     right: 125px;
     height: 100px;
+}
+
+#footerquote{
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    position: absolute;
+    top: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
 }
